@@ -2,7 +2,8 @@
 
 # class == Namespace Path
 #   variable == Final Endpoint Namespace Path
-#   function == Service, {_}function is private
+#   function starts with "_srv_" == Service
+#   function starts with "_act_" == Action
 
 # streaming direction => input or output
 #    output : Pub a topic
